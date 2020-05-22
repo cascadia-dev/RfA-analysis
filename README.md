@@ -1,5 +1,8 @@
 # RfA-analysis
-See "News and Notes" from May 2020 issue of [*The Signpost*](https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost) on Wikipedia for details
+
+This is a toolkit for analyzing Wikipedia [Requests for Adminship](https://en.wikipedia.org/wiki/Wikipedia:Requests_for_adminship) (RfAs). The Wikipedia servers can be queried using the public ["export" facility](https://en.wikipedia.org/wiki/Help:Export). Each valid RfA corresponds to one diff in the RfA page that can be found by appropriately querying the page history.
+
+See "News and Notes" from May 2020 issue of [*The Signpost*](https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost) on Wikipedia for motivation and some details of the findings from this tool.
 
 Main findings are in reports/allyears.wiki after you invoke `main.sh` and duplicate entries are in reports/allyears.duplicates.
 
