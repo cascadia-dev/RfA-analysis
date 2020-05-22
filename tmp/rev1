@@ -47,53 +47,76 @@
     <ns>4</ns>
     <id>2609425</id>
     <revision>
-      <id>260987494</id>
-      <parentid>260987087</parentid>
-      <timestamp>2008-12-31T00:13:42Z</timestamp>
+      <id>817997959</id>
+      <parentid>817996861</parentid>
+      <timestamp>2017-12-31T22:12:51Z</timestamp>
       <contributor>
-        <username>Frank</username>
-        <id>1475157</id>
+        <username>Xaosflux</username>
+        <id>502540</id>
       </contributor>
-      <comment>Reverted [[WP:AGF|good faith]] edits by [[Special:Contributions/DJ WikiBob|DJ WikiBob]]; Removed malformed (non-existent) RfA. ([[WP:TW|TW]])</comment>
+      <comment>&lt;div style="text-align: center;"&gt; {{grey|'''There are no current nominations.'''}}&lt;/div&gt;</comment>
       <model>wikitext</model>
       <format>text/x-wiki</format>
-      <text bytes="2263" xml:space="preserve">{{Wikipedia:Requests for adminship/Front matter}}&lt;!-- *****Do not move this line, as it is not an RfA!***** --&gt;
-{{Bots|allow=MartinBot,ClueBot,CounterVandalismBot}}
+      <text bytes="3316" xml:space="preserve">&lt;noinclude&gt;{{pp-protected|small=yes}}{{pp-move-indef}}&lt;/noinclude&gt;
+{{Wikipedia:Requests for adminship/Header}}&lt;!-- *****Do not move this line, as it is not an RfA!***** --&gt;
+{{bots|allow=ClueBot NG}}
 
 == Current nominations for adminship ==
-&lt;center&gt;
+&lt;div style="text-align: center;"&gt;
 Current time is '''{{FULLDATE|type=wiki}}'''
-{| style="margin: 0 auto; font-size:smaller; background:none;"
-|'''&lt;span class="plainlinks"&gt;[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAMEE}}|action=purge}} Purge page cache]&lt;/span&gt; if nominations have not updated.'''
-|}
-&lt;/center&gt;
-&lt;!-- Place new nominations for adminship right below, whether you are nominating yourself or someone else. Also, please note that RfA policy states that ALL RfA nominations posted here MUST have candidate acceptance, or the nominations may be removed. Please read the revised directions carefully. Thank you.
-ATTENTION: Your nomination will be considered "malformed" and may be reverted if you do not follow the instructions at http://en.wikipedia.org/wiki/Wikipedia:Requests_for_adminship/nominate. --&gt;
-
-&lt;!--  Please place new nominations for adminship at the top, above the most recent nomination. Please leave the first "----" alone, and don't forget to include the "----" line separating the new nomination from the previous one. --&gt;
+&lt;/div&gt;
 ----
-&lt;center&gt;{{grey|'''There are no current nominations.'''}}&lt;/center&gt;
-----
+&lt;div style="text-align: center; font-size: 85%;"&gt;
+'''{{purge|Purge page cache}} if nominations have not updated.'''
+&lt;/div&gt;
+&lt;!-- INSTRUCTIONS 
+New nominations for adminship, whether you are nominating yourself or someone else, are placed below these instructions.  Please note that RfA policy states that ALL RfA nominations posted here MUST have candidate acceptance, or the nominations may be removed. Please read the revised directions carefully. Thank you.
+ATTENTION: Your nomination will be considered "malformed" and may be reverted if you do not follow the instructions at https://en.wikipedia.org/wiki/Wikipedia:Requests_for_adminship/Nominate
 
-==About RfB==
+Please place new nominations for adminship immediately below the "----" line with the hidden comment, above the most recent nomination.
+Please leave the first "----" alone and don't forget to include a new "----" line between the new nomination and the previous one as shown in the example.
+
+  Example:
+  ("There are no current nominations" message, commented if there are open RfAs)
+  ---- (hidden comment "please leave this horizontal rule and place rfa transclusion below ")
+  ----
+
+Uncomment the "There are no current nominations" message when there are no RfAs. Comment it again when another one starts.
+
+Ready now? Take a deep breath and go!
+
+END INSTRUCTIONS --&gt;
+---- &lt;!--Please leave this horizontal rule--&gt;
+
+----
+&lt;div style="text-align: center;"&gt; {{grey|'''There are no current nominations.'''}}&lt;/div&gt;
+
+== About RfB ==
+{{redirect|WP:RFB|bot requests|Wikipedia:Bot requests|help with referencing|Wikipedia:Referencing for beginners}}
 {{Wikipedia:Requests for adminship/bureaucratship}}
 
-==Current nominations for bureaucratship==
-&lt;!-- Place new nominations for bureaucratship right below, whether you are nominating yourself or someone else.--&gt; 
-&lt;center&gt;{{grey|'''There are no current nominations.'''}}&lt;/center&gt;
-----
+== Current nominations for bureaucratship ==
+&lt;div style="text-align: center;"&gt;{{grey|'''There are no current nominations.'''}}&lt;/div&gt;
+---- &lt;!-- Please leave this horizontal rule --&gt;
 
-==Related pages==
-*Requests for self-de-adminship can be made at [[m:Requests for permissions]].
-*Requests to mark an account as a bot can be made at [[Wikipedia:Bots/Requests for approval]].
-*[[Wikipedia:Requests for de-adminship]] - [[Wikipedia:Requests for comment|Requests for comment]] on possible misuse of sysop privileges, as well as a summary of rejected proposals for de-adminship processes and a list of past cases of de-adminship.
+== Related pages ==
+* Requests for self-de-adminship can be made at [[Wikipedia:Bureaucrats' noticeboard]].
+* Requests to mark an account as a bot can be made at [[Wikipedia:Bots/Requests for approval]].
+* Requests to remove the administrator access of another editor due to abuse may be made at [[Wikipedia:Arbitration/Requests/Case]], but you should read [[Wikipedia:Administrators#Grievances by users ("administrator abuse")]] and attempt other methods of dispute resolution first.
+** [[Wikipedia:Requests for de-adminship]] – Failed proposals to create a community-based process for de-adminship processes.
+* [[Wikipedia:Miniguide to requests for adminship]]
+* [[Wikipedia:Guide to requests for adminship]]
+* [[Wikipedia:Advice for RfA candidates]]
+* [[Wikipedia:Request an RfA nomination]]
+* Requests for other user permissions can be made at [[Wikipedia:Requests for permissions]].
 
 [[Category:Requests for adminship| ]]
-[[Category:Wikipedia adminship]]
+[[Category:Wikipedia adminship|Requests for adminship]]
 [[Category:Non-talk pages with subpages that are automatically signed]]
+[[Category:Wikipedia processes]]
 
-&lt;!-- Interwiki links are includeonly-transcluded from /Front matter --&gt;</text>
-      <sha1>gqan6nwkhqklt80x0gkqkokqurgwzka</sha1>
+&lt;!-- Interwiki links are includeonly-transcluded from /Header --&gt;</text>
+      <sha1>smi5h9620936f7387rm6hmxo2f8u5m1</sha1>
     </revision>
   </page>
 </mediawiki>

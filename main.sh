@@ -4,7 +4,15 @@ source fetch-diff.sh 2020
 source report-rfa-from-diff.sh 2020
 cat reports/2020.wiki > reports/allyears.wiki
 
-for yy in 2019 2018
+source fetch-diff.sh 2019
+source report-rfa-from-diff.sh 2020
+cat reports/2020.wiki > reports/allyears.wiki
+
+source fetch-diff.sh 2018
+source report-rfa-from-diff.sh 2020
+cat reports/2020.wiki > reports/allyears.wiki
+
+for yy in 2020 2019 2018
 do
   source fetch-diff.sh $yy
   source report-rfa-from-diff.sh $yy
