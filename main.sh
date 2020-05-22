@@ -4,15 +4,7 @@ source fetch-diff.sh 2020
 source report-rfa-from-diff.sh 2020
 cat reports/2020.wiki > reports/allyears.wiki
 
-source fetch-diff.sh 2019
-source report-rfa-from-diff.sh 2020
-cat reports/2020.wiki > reports/allyears.wiki
-
-source fetch-diff.sh 2018
-source report-rfa-from-diff.sh 2020
-cat reports/2020.wiki > reports/allyears.wiki
-
-for yy in 2020 2019 2018
+for yy in 2019 2018
 do
   source fetch-diff.sh $yy
   source report-rfa-from-diff.sh $yy
@@ -20,4 +12,9 @@ do
 done
 
 
-source report-duplicates.sh
+echo "" > reports/allyears.duplicates
+for yy in 2020 2019 2018
+do
+  echo "=== $yy ===" >> reports/allyears.duplicates
+  cat reports/$yy.duplicates >> reports/allyears.duplicates
+done

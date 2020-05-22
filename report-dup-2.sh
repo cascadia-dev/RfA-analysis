@@ -11,9 +11,3 @@ do
     comm -13 tmp/d1 tmp/d2 | wc -l
   done
 done
-
-#while read -r txt
-#do
-#  echo "finding >$txt< at diffs/$yy/*"
-#  grep "$txt" diffs/$yy/*$yy-* >> tmp/dup
-#done < reports/$yy.duplicates
