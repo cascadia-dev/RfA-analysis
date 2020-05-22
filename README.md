@@ -1,2 +1,2 @@
 # RfA-analysis
-See "News and Notes" from May 2020 issue of *The Signpost* on Wikipedia for details
+See "News and Notes" from May 2020 issue of [*The Signpost*](https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost) on Wikipedia for details
