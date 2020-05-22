@@ -1,0 +1,30 @@
+{| class = "wikitable"
+|-
+! Year || style="width: 7%;" | January|| style="width: 7%;" |February|| style="width: 7%;" |March|| style="width: 7%;" |April|| style="width: 7%;" |May|| style="width: 7%;" |June|| style="width: 7%;" |July|| style="width: 7%;" |August|| style="width: 7%;" |September|| style="width: 7%;" |October|| style="width: 7%;" |November|| style="width: 7%;" |December
+|-
+| 2014
+| 
+11
+| 
+16
+| 
+9
+| 
+12
+| 
+8
+| 
+9
+| 
+9
+| 
+7
+| 
+2
+| 
+10
+| 
+8
+| 
+6
+|}
